@@ -6,7 +6,14 @@ body {
 
 
 label {
-  margin: 20px;
+  margin: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px 5px;
+}
+
+input {
+  margin-left: 10px;
 }
 
 .wrapper {
@@ -24,4 +31,9 @@ label {
 .results {
   margin: 20px 50px;
   padding: 20px 50px;
+}
+
+.checked {
+  background: white;
+  color: black;
 }
