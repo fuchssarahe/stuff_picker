@@ -1,5 +1,12 @@
+div, section, article {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
 
 body {
+  box-sizing: border-box;
+  padding-top: 20px;
   background: black;
   color: white;
   font-size: 22px;
@@ -13,25 +20,27 @@ label {
 }
 
 label:hover {
+  transition: all 0.3s ease;
   cursor: pointer;
-
-}
-
-input {
-  margin-left: 10px;
+  background: white;
+  color: black;
 }
 
 .wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .filters {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-bottom: 20px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.spinner {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
 .results {
@@ -39,6 +48,12 @@ input {
   padding: 20px 50px;
   border-radius: 5px;
   text-align: center;
+}
+
+.results--filled:hover {
+  cursor: pointer;
+  border: 2px solid white;
+  padding: 18px 58px;
 }
 
 .checked {
