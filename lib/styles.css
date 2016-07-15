@@ -1,15 +1,20 @@
+
 body {
   background: black;
   color: white;
   font-size: 22px;
 }
 
-
 label {
   margin: 10px;
   border: 1px solid white;
   border-radius: 5px;
   padding: 8px 5px;
+}
+
+label:hover {
+  cursor: pointer;
+
 }
 
 input {
@@ -26,11 +31,14 @@ input {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 20px;
 }
 
 .results {
-  margin: 20px 50px;
+  margin-top: 20px;
   padding: 20px 50px;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .checked {
