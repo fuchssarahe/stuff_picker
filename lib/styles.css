@@ -37,7 +37,6 @@ label:hover {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-right: 10px;
 }
 
 .filters > div {
