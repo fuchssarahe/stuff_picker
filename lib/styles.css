@@ -39,6 +39,11 @@ label:hover {
   text-align: center;
 }
 
+.filters > div {
+  padding-top: 27px;
+  width: 200px;
+}
+
 .spinner {
   display: flex;
   flex-direction: column;
