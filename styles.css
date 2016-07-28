@@ -29,9 +29,8 @@ label:hover {
 }
 
 .wrapper {
-  /*display: flex;
-  flex-direction: column;
-  justify-content: space-between;*/
+  margin: auto;
+  max-width: 1225px;
 }
 
 .page-item {
@@ -47,13 +46,6 @@ label:hover {
   font-weight: bold;
 }
 
-.filters {
-  /*display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  text-align: center;*/
-}
-
 .filters > header {
   font-weight: bold;
 }
@@ -61,7 +53,6 @@ label:hover {
 .spinner {
   display: flex;
   flex-direction: column;
-  /*margin: auto;*/
   align-items: center;
 }
 
@@ -99,7 +90,6 @@ canvas.spinner {
   .wrapper {
     display: flex;
     width: 100%;
-    /*align-content: stretch;*/
     justify-content: space-around;
   }
 
