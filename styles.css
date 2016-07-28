@@ -63,6 +63,11 @@ canvas.spinner {
   padding: 20px 10px;
 }
 
+.spinner > header {
+  padding: 20px 10px;
+  text-align: center;
+}
+
 .results {
   margin-top: 20px;
   padding: 20px 50px;
@@ -82,8 +87,8 @@ canvas.spinner {
 }
 
 .checked {
-  background: white;
-  color: darkslategray;
+  background: darkslategray;
+  color: white;
 }
 
 @media (min-width: 800px) {
@@ -99,7 +104,6 @@ canvas.spinner {
 
   section.spinner {
     margin-left: 10px;
-    width: 430px;
     min-height: calc(100vh - 80px)
   }
 }
