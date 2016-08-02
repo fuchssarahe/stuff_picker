@@ -13,7 +13,7 @@ body {
   font-weight: 200;
 }
 
-label {
+.filters__filter {
   margin: 10px;
   border: 1px solid darkslategray;
   border-radius: 5px;
@@ -21,7 +21,7 @@ label {
   display: inline-block;
 }
 
-label:hover {
+.filters__filter:hover {
   transition: all 0.3s ease;
   cursor: pointer;
   background: darkslategray;
@@ -33,7 +33,7 @@ label:hover {
   max-width: 1225px;
 }
 
-.page-item {
+.column__item {
   padding: 0px 10px;
   margin: 0 0 10px 0;
   background: ghostwhite;
@@ -41,52 +41,52 @@ label:hover {
   border-bottom: 1px solid lightgray;
 }
 
-.header {
+.item__header {
   font-size: 25px;
   font-weight: bold;
 }
 
-.filters > header {
+.item__filters > header {
   font-weight: bold;
 }
 
-.spinner {
+.item__spinner {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-section.spinner {
+section.item__spinner {
 }
 
-canvas.spinner {
+canvas.item__spinner {
   padding: 20px 10px;
 }
 
-.spinner > header {
+.item__spinner > header {
   padding: 20px 10px;
   text-align: center;
 }
 
-.results {
+.item__results {
   margin-top: 20px;
   padding: 20px 50px;
   border-radius: 5px;
   text-align: center;
 }
 
-.results--filled {
+.item__results--filled {
   max-width: 350px;
   box-shadow: 0px 3px 3px 3px #ccc;
 }
 
-.results--filled:hover {
+.item__results--filled:hover {
   cursor: pointer;
   transition: all 0.3s ease;
   opacity: 0.8;
 }
 
-.checked {
+.filters__filter--checked {
   background: darkslategray;
   color: white;
 }
@@ -98,11 +98,11 @@ canvas.spinner {
     justify-content: space-around;
   }
 
-  .filters {
+  .item__filters {
     min-height: calc(100vh - 80px)
   }
 
-  section.spinner {
+  section.item__spinner {
     margin-left: 10px;
     min-height: calc(100vh - 80px)
   }
